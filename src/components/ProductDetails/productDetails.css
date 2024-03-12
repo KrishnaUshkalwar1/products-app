@@ -1,0 +1,86 @@
+.product-details-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #52504d;
+    height: 100vh;
+}
+
+.product-spinner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product-details-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #faf9f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-image {
+   width: 33%;
+   margin-right: 20px;
+}
+
+.product-details-information-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details-information-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.product-details-information-description {
+    font-size: 18px;
+    color: #000000;
+}
+
+.product-details-information-category {
+    font-size: 20px;
+    color: #000000;
+}
+
+.product-details-information-price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rupee-icon {
+    height: 21px;
+    width: 21px;
+    margin-top: 4px;
+}
+
+.product-details-information-price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.rate-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    color: #fac637;
+    margin-top: 2px;
+}
+
+.rate {
+    font-size: 15px;
+    color: #000000;
+}
+
+.count {
+    font-size: 15px;
+    color: #000000;
+}
